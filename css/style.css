@@ -14,17 +14,19 @@ main{
     justify-content: space-between;
     flex-wrap: wrap;
     height: 100vh;
+    background-color: #a0ccee;
 }
 
 .contentCard{
     width: 30em;
     height: 30em;
     margin: 10px;
-    background-color: aquamarine;
+    background-color: #fff;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-main > *:nth-child(2n){
+main > *:nth-child(2n+1){
     background-color:beige;
 }
