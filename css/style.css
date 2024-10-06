@@ -30,3 +30,23 @@ main{
 main > *:nth-child(2n+1){
     background-color:beige;
 }
+
+/**aqui vamos a personalizar cada tarjeta y comparar sus inidades**/
+
+.welcameCard{
+    text-align: center;
+}
+
+.emCard {
+    font-size: 20px;
+}
+.emCard h1{
+    font-size: 40px;
+    padding: 1em;
+    background-color: rgb(33, 94, 94);
+}
+.emCard h2{
+    font-size: 20px;
+    padding: 1em;
+    background-color: aqua;
+}
